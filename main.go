@@ -1,7 +1,12 @@
+// main.go
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "github.com/fatih/color"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+    color.Green("Hello, World in green!")
+    fmt.Println("Plain Hello too.")
 }
